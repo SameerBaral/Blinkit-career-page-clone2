@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #F8CB46;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    max-width: 100vw;
+}
+
+.logo{
+    height: 60px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px 10px;
+    
+    /* border: 2px solid red; */
+}
+
+nav .nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+
+nav .nav-links ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    /* transition: all 9s; */
+}
+
+li a:hover{
+    cursor: pointer;
+    border-bottom: 3px solid green;
+    /* transition: all 1s; */
+}
+
+.hamburgur-icon #bar{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* media query */
+@media only screen and (max-width:680px){
+    
+    .nav-links li{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+/* ============================================================ */
+
+
+/* Body section */
+
+/* Upper part css */
+.header-bg{
+    width: 100%;
+   
+    height: 500px;
+    background-image: url(./img/career-masthead-desktop.webp);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color:#F8CB46;
+
+    background-size: cover;
+}
+
+
+.parallax-section{
+    position: relative;
+    /* height: 100vh; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 100%;
+}
+
+.parallax-section  h1{
+    width: 100%;
+    position: absolute;
+    bottom: 290px;
+    text-align: center;
+    /* color: #fff; */
+    font-weight: 900;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 0 10%;
+    
+}
+
+
+.content-one p{
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+
+.content-two img{
+    width: 100%;
+    /* height: 500px; */
+}
+
+
+/* h2 style */
+
+.title-part{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.content-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    gap: 50px;
+    
+    width: 100%;
+    
+    /* border: 2px solid black; */
+
+    /* padding-bottom: 20px; */
+}
+
+.three-one{
+    width: 40%;
+
+    /* border: 2px solid red; */
+}
+
+.three-one img{
+    width: 100%;
+}
+
+
+.three-two{
+    width: 40%;
+
+    /* border: 2px solid green; */
+}
+
+.three-two img{
+    width: 100%;
+
+}
+
+
