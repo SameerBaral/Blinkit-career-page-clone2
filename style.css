@@ -26,7 +26,7 @@ header{
 
 .logo{
     height: 60px;
-    width: 190px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ li a:hover{
     /* transition: all 1s; */
 }
 
-.hamburgur-icon #bar{
+#bar{
     font-size: 18px;
     cursor: pointer;
 }
@@ -88,8 +88,8 @@ li a:hover{
     position: relative;
     width: 100%;  
     height: 500px;
-    /* background-image: url(./img/career-masthead-desktop.webp); */
-    /* background: inear-gradient(to bottom, #F8CB46 50%, #4CAF50 50%); */
+    /* background-image: url(./img/career-masthead-desktop.webp);
+    background: linear-gradient(to bottom, #F8CB46 50%, #4CAF50 50%); */
 
     background-image: 
     linear-gradient(to bottom, rgba(248, 203, 70, 0.3) 0%, rgba(248, 203, 70, 0.3) 45%, rgba(26, 139, 29, 0.5) 55%, rgba(60, 169, 63, 0.9) 100%), 
@@ -103,7 +103,7 @@ li a:hover{
 
 
 
-.parallax-section  h1{
+.header-bg  h1{
     width: 100%;
     position: absolute;
     bottom: 50px;
@@ -140,6 +140,7 @@ li a:hover{
 .title-part{
     width: 100%;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 
@@ -149,7 +150,6 @@ li a:hover{
     align-items: center;
     justify-content: center;
     
-
     gap: 50px;
     
     width: 100%;
@@ -160,7 +160,10 @@ li a:hover{
 }
 
 .three-one{
-    width: 40%;
+    /* width: 40%;
+     */
+     /* width: ; */
+     flex-basis: 45px;
 
     /* border: 2px solid red; */
 }
@@ -171,7 +174,8 @@ li a:hover{
 
 
 .three-two{
-    width: 40%;
+    /* width: 40%; */
+    flex-basis: 45px;
 
     /* border: 2px solid green; */
 }
